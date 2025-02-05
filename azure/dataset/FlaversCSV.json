@@ -1,0 +1,48 @@
+{
+	"name": "FlaversCSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "inputBlob",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Flavors.csv",
+				"container": "private"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Flavor",
+				"type": "String"
+			},
+			{
+				"name": "Base Flavor",
+				"type": "String"
+			},
+			{
+				"name": "Liked",
+				"type": "String"
+			},
+			{
+				"name": "Flavor Rating",
+				"type": "String"
+			},
+			{
+				"name": "Texture Rating",
+				"type": "String"
+			},
+			{
+				"name": "Total Rating",
+				"type": "String"
+			}
+		]
+	}
+}
