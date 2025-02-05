@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "dfdemo712"
+		},
+		"inputBlob_connectionString": {
+			"value": ""
+		},
+		"sqloutput_password": {
+			"value": ""
+		},
+		"sqloutput_properties_typeProperties_server": {
+			"value": "azuresqlserver712.database.windows.net"
+		},
+		"sqloutput_properties_typeProperties_database": {
+			"value": "azure-db-demo"
+		},
+		"sqloutput_properties_typeProperties_userName": {
+			"value": "azuresqlserveradmin"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
