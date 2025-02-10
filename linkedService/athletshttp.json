@@ -1,0 +1,12 @@
+{
+	"name": "athletshttp",
+	"properties": {
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://raw.githubusercontent.com/ali-ce/datasets/refs/heads/master/Most-paid-athletes/Athletes.csv",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Anonymous"
+		}
+	}
+}
